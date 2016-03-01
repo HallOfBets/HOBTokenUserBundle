@@ -1,0 +1,23 @@
+{
+  "name": "hob/token-user-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony Token User bundle for HOB",
+  "homepage": "https://github.com/HallOfBets",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexis CASSAN",
+      "email": "alexiscassan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/framework-bundle": "~2.3|~3.0",
+    "hob/token-bundle": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "HOB\\TokenUserBundle\\": ""
+    }
+  }
+}
